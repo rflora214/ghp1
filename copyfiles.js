@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 const sourceFolder = path.join(__dirname, 'dist/browser');
-const distFolder = path.join(__dirname, 'web');
+const distFolder = path.join(__dirname, '');
 
 async function copyFiles() {
     try {
